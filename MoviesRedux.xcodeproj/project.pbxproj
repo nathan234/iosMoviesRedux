@@ -7,19 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD42F55825F1FB1200BF4120 /* HelloReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42F55725F1FB1200BF4120 /* HelloReduxApp.swift */; };
+		CD42F55825F1FB1200BF4120 /* MoviesReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42F55725F1FB1200BF4120 /* MoviesReduxApp.swift */; };
 		CD42F55A25F1FB1200BF4120 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42F55925F1FB1200BF4120 /* ContentView.swift */; };
 		CD42F55C25F1FB1200BF4120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD42F55B25F1FB1200BF4120 /* Assets.xcassets */; };
 		CD42F55F25F1FB1200BF4120 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD42F55E25F1FB1200BF4120 /* Preview Assets.xcassets */; };
+		CD42F56A25F1FB8500BF4120 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD42F56925F1FB8500BF4120 /* Store.swift */; };
+		CD8A17F325F482B7003E0469 /* LogMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A17F225F482B7003E0469 /* LogMiddleware.swift */; };
+		CD8A17F625F483B9003E0469 /* IncrementMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A17F525F483B9003E0469 /* IncrementMiddleware.swift */; };
+		CD8A17FB25F4959F003E0469 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A17FA25F4959F003E0469 /* View+Extensions.swift */; };
+		CD8A17FE25F495EC003E0469 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A17FD25F495EC003E0469 /* String+Extensions.swift */; };
+		CD8A180225F49677003E0469 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A180125F49677003E0469 /* URLImage.swift */; };
+		CD8A180525F49757003E0469 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A180425F49757003E0469 /* RatingView.swift */; };
+		CD8A180925F4981E003E0469 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A180825F4981E003E0469 /* File.swift */; };
+		CD8A180D25F498B0003E0469 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A180C25F498B0003E0469 /* Constants.swift */; };
+		CDF8B6EA25F345DD003AAD22 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8B6E925F345DD003AAD22 /* CounterReducer.swift */; };
+		CDF8B6ED25F3462C003AAD22 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8B6EC25F3462C003AAD22 /* AppReducer.swift */; };
+		CDF8B6F125F34946003AAD22 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8B6F025F34945003AAD22 /* Task.swift */; };
+		CDF8B6F425F349DF003AAD22 /* TaskReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8B6F325F349DF003AAD22 /* TaskReducer.swift */; };
+		CDF8B6F725F34B82003AAD22 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF8B6F625F34B82003AAD22 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD42F55425F1FB1200BF4120 /* HelloRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD42F55725F1FB1200BF4120 /* HelloReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloReduxApp.swift; sourceTree = "<group>"; };
+		CD42F55425F1FB1200BF4120 /* MoviesRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD42F55725F1FB1200BF4120 /* MoviesReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesReduxApp.swift; sourceTree = "<group>"; };
 		CD42F55925F1FB1200BF4120 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD42F55B25F1FB1200BF4120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD42F55E25F1FB1200BF4120 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD42F56025F1FB1200BF4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD42F56925F1FB8500BF4120 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CD8A17F225F482B7003E0469 /* LogMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMiddleware.swift; sourceTree = "<group>"; };
+		CD8A17F525F483B9003E0469 /* IncrementMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementMiddleware.swift; sourceTree = "<group>"; };
+		CD8A17FA25F4959F003E0469 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		CD8A17FD25F495EC003E0469 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CD8A180125F49677003E0469 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		CD8A180425F49757003E0469 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CD8A180825F4981E003E0469 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CD8A180C25F498B0003E0469 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDF8B6E925F345DD003AAD22 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		CDF8B6EC25F3462C003AAD22 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		CDF8B6F025F34945003AAD22 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CDF8B6F325F349DF003AAD22 /* TaskReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskReducer.swift; sourceTree = "<group>"; };
+		CDF8B6F625F34B82003AAD22 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +64,7 @@
 		CD42F54B25F1FB1200BF4120 = {
 			isa = PBXGroup;
 			children = (
-				CD42F55625F1FB1200BF4120 /* HelloRedux */,
+				CD42F55625F1FB1200BF4120 /* MoviesRedux */,
 				CD42F55525F1FB1200BF4120 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +72,28 @@
 		CD42F55525F1FB1200BF4120 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD42F55425F1FB1200BF4120 /* HelloRedux.app */,
+				CD42F55425F1FB1200BF4120 /* MoviesRedux.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD42F55625F1FB1200BF4120 /* HelloRedux */ = {
+		CD42F55625F1FB1200BF4120 /* MoviesRedux */ = {
 			isa = PBXGroup;
 			children = (
-				CD42F55725F1FB1200BF4120 /* HelloReduxApp.swift */,
+				CD8A180B25F498A1003E0469 /* Utils */,
+				CD8A180725F49807003E0469 /* Loaders */,
+				CD8A180025F4965A003E0469 /* Views */,
+				CD8A17F925F49586003E0469 /* Extensions */,
+				CDF8B6EF25F3491E003AAD22 /* Models */,
+				CD42F56725F1FB5800BF4120 /* Store */,
+				CD42F55725F1FB1200BF4120 /* MoviesReduxApp.swift */,
 				CD42F55925F1FB1200BF4120 /* ContentView.swift */,
 				CD42F55B25F1FB1200BF4120 /* Assets.xcassets */,
 				CD42F56025F1FB1200BF4120 /* Info.plist */,
 				CD42F55D25F1FB1200BF4120 /* Preview Content */,
+				CDF8B6F625F34B82003AAD22 /* AddTaskView.swift */,
 			);
-			path = HelloRedux;
+			path = MoviesRedux;
 			sourceTree = "<group>";
 		};
 		CD42F55D25F1FB1200BF4120 /* Preview Content */ = {
@@ -69,12 +104,83 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CD42F56725F1FB5800BF4120 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A17F125F482A1003E0469 /* middlewares */,
+				CDF8B6E825F34596003AAD22 /* reducers */,
+				CD42F56925F1FB8500BF4120 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		CD8A17F125F482A1003E0469 /* middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A17F225F482B7003E0469 /* LogMiddleware.swift */,
+				CD8A17F525F483B9003E0469 /* IncrementMiddleware.swift */,
+			);
+			path = middlewares;
+			sourceTree = "<group>";
+		};
+		CD8A17F925F49586003E0469 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A17FA25F4959F003E0469 /* View+Extensions.swift */,
+				CD8A17FD25F495EC003E0469 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD8A180025F4965A003E0469 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A180125F49677003E0469 /* URLImage.swift */,
+				CD8A180425F49757003E0469 /* RatingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD8A180725F49807003E0469 /* Loaders */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A180825F4981E003E0469 /* File.swift */,
+			);
+			path = Loaders;
+			sourceTree = "<group>";
+		};
+		CD8A180B25F498A1003E0469 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD8A180C25F498B0003E0469 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDF8B6E825F34596003AAD22 /* reducers */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8B6E925F345DD003AAD22 /* CounterReducer.swift */,
+				CDF8B6EC25F3462C003AAD22 /* AppReducer.swift */,
+				CDF8B6F325F349DF003AAD22 /* TaskReducer.swift */,
+			);
+			path = reducers;
+			sourceTree = "<group>";
+		};
+		CDF8B6EF25F3491E003AAD22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8B6F025F34945003AAD22 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD42F55325F1FB1200BF4120 /* HelloRedux */ = {
+		CD42F55325F1FB1200BF4120 /* MoviesRedux */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD42F56325F1FB1200BF4120 /* Build configuration list for PBXNativeTarget "HelloRedux" */;
+			buildConfigurationList = CD42F56325F1FB1200BF4120 /* Build configuration list for PBXNativeTarget "MoviesRedux" */;
 			buildPhases = (
 				CD42F55025F1FB1200BF4120 /* Sources */,
 				CD42F55125F1FB1200BF4120 /* Frameworks */,
@@ -84,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloRedux;
+			name = MoviesRedux;
 			productName = HelloRedux;
-			productReference = CD42F55425F1FB1200BF4120 /* HelloRedux.app */;
+			productReference = CD42F55425F1FB1200BF4120 /* MoviesRedux.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD42F54F25F1FB1200BF4120 /* Build configuration list for PBXProject "HelloRedux" */;
+			buildConfigurationList = CD42F54F25F1FB1200BF4120 /* Build configuration list for PBXProject "MoviesRedux" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD42F55325F1FB1200BF4120 /* HelloRedux */,
+				CD42F55325F1FB1200BF4120 /* MoviesRedux */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +244,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD42F56A25F1FB8500BF4120 /* Store.swift in Sources */,
+				CDF8B6EA25F345DD003AAD22 /* CounterReducer.swift in Sources */,
+				CD8A17FB25F4959F003E0469 /* View+Extensions.swift in Sources */,
 				CD42F55A25F1FB1200BF4120 /* ContentView.swift in Sources */,
-				CD42F55825F1FB1200BF4120 /* HelloReduxApp.swift in Sources */,
+				CD8A17FE25F495EC003E0469 /* String+Extensions.swift in Sources */,
+				CD8A180225F49677003E0469 /* URLImage.swift in Sources */,
+				CDF8B6F725F34B82003AAD22 /* AddTaskView.swift in Sources */,
+				CD8A180D25F498B0003E0469 /* Constants.swift in Sources */,
+				CD8A17F625F483B9003E0469 /* IncrementMiddleware.swift in Sources */,
+				CD42F55825F1FB1200BF4120 /* MoviesReduxApp.swift in Sources */,
+				CDF8B6F425F349DF003AAD22 /* TaskReducer.swift in Sources */,
+				CD8A180925F4981E003E0469 /* File.swift in Sources */,
+				CDF8B6F125F34946003AAD22 /* Task.swift in Sources */,
+				CDF8B6ED25F3462C003AAD22 /* AppReducer.swift in Sources */,
+				CD8A17F325F482B7003E0469 /* LogMiddleware.swift in Sources */,
+				CD8A180525F49757003E0469 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +388,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloRedux/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoviesRedux/Preview Content\"";
 				DEVELOPMENT_TEAM = VUTS936LBT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HelloRedux/Info.plist;
+				INFOPLIST_FILE = MoviesRedux/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathanretta.HelloRedux;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanretta.MoviesRedux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +410,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloRedux/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoviesRedux/Preview Content\"";
 				DEVELOPMENT_TEAM = VUTS936LBT;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HelloRedux/Info.plist;
+				INFOPLIST_FILE = MoviesRedux/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nathanretta.HelloRedux;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanretta.MoviesRedux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +429,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD42F54F25F1FB1200BF4120 /* Build configuration list for PBXProject "HelloRedux" */ = {
+		CD42F54F25F1FB1200BF4120 /* Build configuration list for PBXProject "MoviesRedux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD42F56125F1FB1200BF4120 /* Debug */,
@@ -318,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD42F56325F1FB1200BF4120 /* Build configuration list for PBXNativeTarget "HelloRedux" */ = {
+		CD42F56325F1FB1200BF4120 /* Build configuration list for PBXNativeTarget "MoviesRedux" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD42F56425F1FB1200BF4120 /* Debug */,
