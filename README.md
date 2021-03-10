@@ -1,5 +1,2 @@
 # iosMoviesRedux
-Playground for MVI/Redux ideas in iOS
-
-### Playground
-Really just playing with SwiftUI and unidirectional dataflow.
+Playground for SwiftUI and Combine, implementing a unidirectional dataflow, redux style app architecture
